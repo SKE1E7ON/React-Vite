@@ -1,156 +1,71 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>СРОЧНО!!! ОШИБКА СИСТЕМЫ!!!</title>
-    <style type="text/css">
-        body {
-            font-family: "Times New Roman", serif;
-            background-color: #000066;
-            background-image: url('https://i.imgur.com/8QZqZfB.gif');
-            margin: 0;
-            padding: 0;
-            color: #FF0000;
-        }
-        .container {
-            width: 650px;
-            margin: 10px auto;
-            background-color: #FFFFFF;
-            border: 8px ridge #FF0000;
-        }
-        .header {
-            background-color: #0000FF;
-            color: #FFFF00;
-            padding: 15px;
-            font-size: 28px;
-            font-weight: bold;
-            text-align: center;
-            border-bottom: 5px dotted #00FF00;
-            text-shadow: 2px 2px 4px #000000;
-        }
-        .content {
-            padding: 20px;
-            background-image: url('https://i.imgur.com/X3ZkKgP.gif');
-        }
-        .error-box {
-            background-color: #FFFF00;
-            border: 3px dashed #FF0000;
-            padding: 15px;
-            margin-bottom: 20px;
-        }
-        .footer {
-            background-color: #000000;
-            color: #FFFFFF;
-            padding: 10px;
-            text-align: center;
-            font-size: 12px;
-            border-top: 4px solid #FF0000;
-        }
-        .blink {
-            animation: blink 1s step-end infinite;
-        }
-        @keyframes blink {
-            50% { opacity: 0; }
-        }
-        .marquee {
-            background-color: #FF0000;
-            color: #FFFFFF;
-            padding: 5px;
-            font-weight: bold;
-            margin: 10px 0;
-        }
-        .button {
-            background-color: #FF0000;
-            color: #FFFFFF;
-            padding: 5px 10px;
-            border: 2px outset #FF9999;
-            font-weight: bold;
-            text-decoration: none;
-        }
-        .button:hover {
-            background-color: #CC0000;
-        }
-    </style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Эссе</title>
 </head>
-<body>
-    <div class="container">
-        <div class="header">
-            <span class="blink">!!! СИСТЕМНАЯ ОШИБКА !!!</span>
-            <img src="https://i.imgur.com/J5Q8XyG.gif" width="80" height="30" alt="error">
-        </div>
-        
-        <div class="content">
-            <div class="marquee">
-                <marquee behavior="scroll" direction="left" scrollamount="10">
-                    ВНИМАНИЕ! КРИТИЧЕСКАЯ ОШИБКА! СИСТЕМА НЕ ПОЗВОЛЯЕТ ПРЕДЛОЖИТЬ КЛИЕНТУ AB PAYMENTS!!!
-                </marquee>
-            </div>
-            
-            <div class="error-box">
-                <h2 style="color: #FF0000; margin-top: 0;">ОПИСАНИЕ ОШИБКИ:</h2>
-                <p><strong>Дата и время:</strong> <span style="background-color: #000000; color: #00FF00; padding: 2px 5px;">31.12.2005 23:59:59</span></p>
-                <p><strong>Код ошибки:</strong> <span style="color: #FF0000; font-weight: bold;">AB_PAY_666</span></p>
-                <p><strong>Сообщение:</strong> Система не дает предложить клиенту AB payments при обработке заказа</p>
+<body style="margin:0; padding:0; background:#f5f5f5;">
+  <!-- Главный контейнер -->
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#f5f5f5">
+    <tr>
+      <td align="center" style="padding:40px 0;">
+        <!-- Контентная область -->
+        <table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="border:1px solid #e0e0e0;">
+          <!-- Заголовок -->
+          <tr>
+            <td style="padding:30px; border-bottom:1px solid #e0e0e0;">
+              <h1 style="margin:0; font-family:Arial, sans-serif; font-size:24px; color:#333333; text-align:center;">
+                Ваше Эссе
+              </h1>
+            </td>
+          </tr>
+          
+          <!-- Инструкция -->
+          <tr>
+            <td style="padding:25px 30px 15px; font-family:Arial, sans-serif; font-size:14px; line-height:1.5; color:#555555;">
+              <p style="margin:0 0 15px;">Уважаемый получатель,</p>
+              <p style="margin:0 0 20px;">Ниже представлена информация обо мне:</p>
+            </td>
+          </tr>
+          
+          <!-- Область для эссе -->
+          <tr>
+            <td style="padding:0 30px 30px;">
+              <div contenteditable="true" 
+                   style="min-height:300px; 
+                          padding:20px; 
+                          border:1px solid #d0d0d0; 
+                          background:#fafafa; 
+                          font-family:Arial, sans-serif; 
+                          font-size:15px; 
+                          line-height:1.6; 
+                          color:#333333;">
+                <!-- Текст-заполнитель (удалите перед отправкой) -->
+                [Вставьте сюда текст вашего эссе. 
                 
-                <h3 style="color: #0000FF;">ШАГИ ДЛЯ ВОСПРОИЗВЕДЕНИЯ:</h3>
-                <ol>
-                    <li>Открыть форму заказа</li>
-                    <li>Выбрать товар</li>
-                    <li>Попытаться выбрать AB payments</li>
-                    <li>Получить сообщение "ОШИБКА: Невозможно обработать платеж"</li>
-                </ol>
+                Пример структуры:
+                - Образование
+                - Профессиональный опыт
+                - Личные качества
+                - Достижения
+                - Карьерные цели
                 
-                <div style="background-color: #000000; color: #00FF00; padding: 10px; margin-top: 15px; font-family: 'Courier New', monospace;">
-                    > Система: ОШИБКА 0xAB_PAY_666<br>
-                    > Статус: КРИТИЧЕСКИЙ<br>
-                    > Решение: НЕИЗВЕСТНО<br>
-                    > Приоритет: <span class="blink">МАКСИМАЛЬНЫЙ</span>
-                </div>
-            </div>
-            
-            <div style="text-align: center; margin: 20px 0;">
-                <a href="#" class="button">СРОЧНО СООБЩИТЬ НАЧАЛЬСТВУ</a>
-                <a href="#" class="button">ПОПРОБОВАТЬ СНОВА</a>
-                <a href="#" class="button">ПРОИГНОРИРОВАТЬ (НЕ РЕКОМЕНДУЕТСЯ)</a>
-            </div>
-            
-            <div style="background-color: #CCCCCC; padding: 10px; border: 1px solid #999999;">
-                <h3 style="margin-top: 0;">ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ:</h3>
-                <p><strong>Версия системы:</strong> 1.0.2005 (устарела)</p>
-                <p><strong>Браузер:</strong> Internet Explorer 6.0</p>
-                <p><strong>Разрешение экрана:</strong> 800x600</p>
-                <p><strong>Последнее обновление:</strong> никогда</p>
-            </div>
-        </div>
-        
-        <div class="footer">
-            <img src="https://i.imgur.com/5Q7v6WX.gif" width="88" height="31" alt="counter"> 
-            <span style="color: #FFFF00;">СЛУЖБА ТЕХНИЧЕСКОЙ ПОДДЕРЖКИ © 2005</span><br>
-            <span style="font-size: 10px;">Это автоматическое сообщение, пожалуйста, не отвечайте на него</span>
-        </div>
-    </div>
+                Этот текст будет автоматически удален при вводе.]
+              </div>
+            </td>
+          </tr>
+          
+          <!-- Подпись -->
+          <tr>
+            <td style="padding:0 30px 30px; font-family:Arial, sans-serif; font-size:14px; color:#555555;">
+              <p style="margin:0 0 10px;">С уважением,</p>
+              <p style="margin:0; font-weight:bold;">[Ваше Имя]</p>
+              <p style="margin:5px 0 0; font-size:13px; color:#777777;">[Ваша Должность/Роль]</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
 </body>
 </html>
